@@ -1,0 +1,209 @@
+Script started on Thu Mar 31 17:12:24 2022
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jtayseanwilson-nolan@Tayseans-MacBook-Air 251261413-Assignment5 % [K[?2004hexit./sportmake sport[?2004l
+make: `sport' is up to date.
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jtayseanwilson-nolan@Tayseans-MacBook-Air 251261413-Assignment5 % [K[?2004hmake sport[10Dexit      ./sport[?2004l
+1. Print help (using command h ): Print a simple message or messages describing how to use the program.
+2. Quit (using command q ) Quit the program
+3. Control events (using command e )
+4. Control athletes (using command a )
+h
+Welcome to the version 2.0 of the Sports Database. In this database you can add both athletes and events into your database.
+Use options (3) and (4) to control events and athletes. You will have the ability to repetitively insert, search, update, delete, and display a list.
+Let's begin!
+1. Print help (using command h ): Print a simple message or messages describing how to use the program.
+2. Quit (using command q ) Quit the program
+3. Control events (using command e )
+4. Control athletes (using command a )
+e
+Sports Event Database For Winter Olympics - Version 2.0
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), New: Delete (insert e): i
+Now creating new event...
+Enter event ID code (must between 0 and 99): 1
+Enter event name with no spaces (maximum name length: 50): Blues
+Enter the number of competitors: 12
+Enter the gender (M - Men, W - Women, X - Mixed: M
+Event successfully added.
+Total number of events in database: 1
+ID (1) added to new event
+Name (Blues) added to new event
+Gender (M) added to new event
+Number of competitors (12) added to new event
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), New: Delete (insert e): i
+Now creating new event...
+Enter event ID code (must between 0 and 99): 2
+Enter event name with no spaces (maximum name length: 50): Crimson
+Enter the number of competitors: 14
+Enter the gender (M - Men, W - Women, X - Mixed: X
+Event successfully added.
+Total number of events in database: 2
+ID (2) added to new event
+Name (Crimson) added to new event
+Gender (X) added to new event
+Number of competitors (14) added to new event
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), New: Delete (insert e): s
+Which event would you like to search for? Enter event code: 1
+Searching for event with code: 1
+Found event (code: 1)! See values below:
+Event ID		Event Name		Event Gender		Event Competitors
+1			Blues			M			12
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), New: Delete (insert e): u
+Which event would you like to update? Enter event code: 1
+Attempting to update event with code: 1
+Found event (code: 1)!
+Enter event ID code (must between 0 and 99): 1
+Error: Please choose another event code.
+Enter event ID code (must between 0 and 99): 2
+Error: Please choose another event code.
+Enter event ID code (must between 0 and 99): 3
+Enter event name with no spaces (maximum name length: 50): updatedBlues
+Enter the number of competitors: 17
+Enter the gender (M - Men, W - Women, X - Mixed: W
+ID (3) added to new event
+Name (updatedBlues) added to new event
+Gender (W) added to new event
+Number of competitors (17) added to new event
+All values have been updated.
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), New: Delete (insert e): p
+Olympics Database Events List:
+Linked List: ->(2)->(3)
+Event ID		Event Name		Event Gender		Event Competitors
+2			Crimson			X			14
+3			updatedBlues			W			17
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), New: Delete (insert e): e
+Which event would you like to delete for? Enter event code: 3
+Removing an element found in a position after the first
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), New: Delete (insert e): p
+Olympics Database Events List:
+Linked List: ->(2)
+Event ID		Event Name		Event Gender		Event Competitors
+2			Crimson			X			14
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), New: Delete (insert e): q
+Now exiting Events Control Center.
+1. Print help (using command h ): Print a simple message or messages describing how to use the program.
+2. Quit (using command q ) Quit the program
+3. Control events (using command e )
+4. Control athletes (using command a )
+a
+Athletes Database For Winter Olympics - Version 2.0
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), Delete (insert e): i
+Now creating new athlete...
+Enter athlete code (must between 0 and 99): 11  0
+Enter athlete's first name with no spaces (maximum name length: 50): John
+Enter the age: 12
+Error: number cannot be less than 16 or greater than 99.
+Enter the age: 17
+Enter the gender (M - Men, W - Women, X - Not Provided: 
+M
+Athlete successfully added.
+Total number of athletes in database: 1
+Code (0) added to new athlete
+Name (John) added to new athlete
+Gender (M) added to new athlete
+Age (17) added to new athlete
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), Delete (insert e): i
+Now creating new athlete...
+Enter athlete code (must between 0 and 99): 5
+Enter athlete's first name with no spaces (maximum name length: 50): James
+Enter the age: 20
+Enter the gender (M - Men, W - Women, X - Not Provided: 
+W
+Athlete successfully added.
+Total number of athletes in database: 2
+Code (5) added to new athlete
+Name (James) added to new athlete
+Gender (W) added to new athlete
+Age (20) added to new athlete
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), Delete (insert e): i
+Now creating new athlete...
+Enter athlete code (must between 0 and 99): 9
+Enter athlete's first name with no spaces (maximum name length: 50): Mary
+Enter the age: X 21
+Enter the gender (M - Men, W - Women, X - Not Provided: 
+X
+Athlete successfully added.
+Total number of athletes in database: 3
+Code (9) added to new athlete
+Name (Mary) added to new athlete
+Gender (X) added to new athlete
+Age (21) added to new athlete
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), Delete (insert e): p
+Olympics Database Athletes List:
+Linked List: ->(9)->(5)->(0)
+Athlete Code		Athlete Name		Athlete Gender		Athlete Age
+9			Mary			X			21
+5			James			W			20
+0			John			M			17
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), Delete (insert e): u
+Which athlete would you like to update? Enter athlete code: 5
+Attempting to update athlete with code: 5
+Found athlete (code: 5)!
+Enter event ID code (must between 0 and 99): 0
+Error: Please choose another event code.
+Enter event ID code (must between 0 and 99): 9
+Error: Please choose another event code.
+Enter event ID code (must between 0 and 99): 7
+Enter athlete's first name with no spaces (maximum name length: 50): Harry
+Enter the age: 16
+Enter the gender (M - Men, W - Women, X - Not Provided: 
+M
+Code (7) added to new athlete
+Name (Harry) added to new athlete
+Gender (M) added to new athlete
+Age (16) added to new athlete
+All values have been updated.
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), Delete (insert e): p
+Olympics Database Athletes List:
+Linked List: ->(9)->(7)->(0)
+Athlete Code		Athlete Name		Athlete Gender		Athlete Age
+9			Mary			X			21
+7			Harry			M			16
+0			John			M			17
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), Delete (insert e): i
+Now creating new athlete...
+Enter athlete code (must between 0 and 99): 7
+Error: conflict. Choose a new code: 4
+Enter athlete's first name with no spaces (maximum name length: 50): Joe
+Enter the age: 18
+Enter the gender (M - Men, W - Women, X - Not Provided: 
+M
+Athlete successfully added.
+Total number of athletes in database: 4
+Code (4) added to new athlete
+Name (Joe) added to new athlete
+Gender (M) added to new athlete
+Age (18) added to new athlete
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), Delete (insert e): p
+Olympics Database Athletes List:
+Linked List: ->(4)->(9)->(7)->(0)
+Athlete Code		Athlete Name		Athlete Gender		Athlete Age
+4			Joe			M			18
+9			Mary			X			21
+7			Harry			M			16
+0			John			M			17
+Please enter one of the following operations:
+Insert (insert i), Search (insert s), Update (insert u), Print (insert p), Quit (insert q), Delete (insert e): q
+Now exiting Athlete Control Center.
+1. Print help (using command h ): Print a simple message or messages describing how to use the program.
+2. Quit (using command q ) Quit the program
+3. Control events (using command e )
+4. Control athletes (using command a )
+q
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jtayseanwilson-nolan@Tayseans-MacBook-Air 251261413-Assignment5 % [K[?2004heexit[?2004l
+
+Script done on Thu Mar 31 17:16:42 2022
